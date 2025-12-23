@@ -5,34 +5,51 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="estilos.css">
   <title>Frontend Mentor | Four card feature section</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  
 </head>
 <body>
   
-  Reliable, efficient delivery
-  Powered by Technology
+  <header class="header">
+    <h1 class="header__titulo">Reliable, efficient delivery <span id="header__titulo--negritas">Powered by Technology</span></h1>
+    <p>Our Artificial intelligence powered tools use millons of proyect data points to ensure that your proyect is sucessful</p>
+  </header>
 
-  Our Artificial Intelligence powered tools use millions of project data points 
-  to ensure that your project is successful
+  <main>
+    <section class="grid">
 
-  Supervisor
-  Monitors activity to identify project roadblocks
+      <div class="tarjetas__grid">
 
-  Team Builder
-  Scans our talent network to create the optimal team for your project
+        <div class="tarjeta">
+          <h2>Supervisor</h2>
+          <p>Monitors activity to identify proyect roadblocks</p>
+          <img src="images/icon-supervisor.svg" alt="Icono para supervisor" loading="lazy">
+        </div>
 
-  Karma
-  Regularly evaluates our talent to ensure quality
+        <div class="tarjeta">
+          <h2>Team Builder</h2>
+          <p>Scans our talent network to create the optimal team for your proyect</p>
+          <img src="images/icon-team-builder.svg" alt="Icono para team builder" loading="lazy">
+        </div>
 
-  Calculator
-  Uses data from past projects to provide better delivery estimates
+        <div class="tarjeta">
+          <h2>Karma</h2>
+          <p>Regularly evaluates our talent to ensure quality</p>
+          <img src="images/icon-karma.svg" alt="Icono para karma" loading="lazy">
+        </div>
+
+        <div class="tarjeta">
+          <h2>Calculator</h2>
+          <p>Uses data from past proyects to provide better delivery estimates</p>
+          <img src="images/icon-calculator.svg" alt="Icono para calculator" loading="lazy">
+        </div>
+      </div>
+
+    </section>
+  </main>
 
   
   <footer>

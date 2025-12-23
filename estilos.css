@@ -1,0 +1,8 @@
+/* Estilos globales */
+:root{
+    --colorPrimario: #ffccff;
+    --colorText: #000001;
+    --Titulo: Arial;
+    --tituloCard: helvetica;
+    --text: verdana;
+}
