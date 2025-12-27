@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap:
+https://abelvortuno.github.io/Seccion-4-cartas/sitemap.xml
