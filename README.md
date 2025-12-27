@@ -82,5 +82,16 @@ Esto evito espacios innecesarios y permitio una composicion visual compacta y pr
 
 Este proyecto forma parte de mi proceso de aprendizaje y de mi **portafolio personal**,enfocado a construir interfaces modernas, responsive y bien estructuradas. Es mi proyecto 02 de muchos mas que agregare a mi portafolio.
 
+## Lighthouse ##
+
+Nuestro sitio web fue auditado con Lighthouse obteniendo los siguientes resultados:
+
+- Performance: 100
+- Accesibility: 100
+- Best Practices: 100
+- SEO: 100
+
+![Resultados obtenidos](images/litghthouseScore.png)
+
 Cualquier feedback o sugerencia es bienvenido.
 ¡¡Estoy a sus ordenes!!
